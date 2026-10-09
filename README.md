@@ -37,15 +37,17 @@ The project can be broken down into three main steps:
 # Internal Communication 
 After some probing with a multimeter i found the following voltages on the lines
 
-Black -> gnd
-Red -> battery voltage
-White -> battery voltage*
-Blue -> 6V*
-Purple -> 6V*
-Yellow -> 2.5V
-Green -> 2.5V
-Orange -> 2.4V*
-Brown -> 2.4V*
+| Wire Color | Voltage / Connection |
+|---|---|
+| Black | GND |
+| Red | Battery voltage |
+| White | Battery voltage* |
+| Blue | 6V* |
+| Purple | 6V* |
+| Yellow | 2.5V |
+| Green | 2.5V |
+| Orange | 2.4V* |
+| Brown | 2.4V* |
 
 The lines marked with a * idle at around 0V when the light/controller is off. 
 
